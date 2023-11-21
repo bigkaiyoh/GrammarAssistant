@@ -9,7 +9,7 @@ assistant_id = st.secrets.assistant_id
 
 
 #app begins
-st.title("完璧文法にゅーぎ兄さん")
+st.title("Pro Grammar Coach -Nuginy*:。)")
 
 
 def main():
