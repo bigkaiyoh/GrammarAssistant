@@ -59,7 +59,7 @@ def main():
                         role = msg.role
                         content = msg.content[0].text.value
                         #added
-                        with st.chat_message(message"role"):
+                        with st.chat_message(message["role"]):
                             st.markdown(f"{role.capitalize()}: {content}")
                     break
                 else:
