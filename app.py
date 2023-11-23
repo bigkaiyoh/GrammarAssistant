@@ -58,7 +58,9 @@ def main():
                     for msg in reversed(messages.data):
                         role = msg.role
                         content = msg.content[0].text.value
-                        st.write(f"{role.capitalize()}: {content}")
+                        #added
+                        with st.chat_message(message"role")
+                            st.write(f"{role.capitalize()}: {content}")
                     break
                 else:
                     st.write("Waiting for the Assistant to process...")
